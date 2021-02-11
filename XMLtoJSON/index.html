@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML to JSON</title>
+</head>
+<body>
+    <style>
+        /* simple styling */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        body{
+            display: grid;
+            place-items: center;
+        }
+        textarea{
+            width: 90vw;
+            height: 40vh;
+            margin: 5vh 0;
+            font-family: monospace;
+        }
+        button{
+            padding: 16px 32px;
+            font-size: 16px;
+        }
+    </style>
+    <!-- main html elements -->
+    <textarea name="" id="input" cols="30" rows="10"></textarea>
+    <button id="button1">XML ==> JSON</button>
+    <button id="button2">JSON ==> XML</button>
+    <textarea name="" id="output" cols="30" rows="10"></textarea>
+    <!-- javascript files -->
+    <!-- using x2js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.js" integrity="sha512-JW4yY5Dei/4V3FV0BUZwEhdIrhv5jaUQyABWn9YVdXhOiG4++4Bs6sJAgZFSaMBmVKytwPDOaXic7Qs6yqSMwg==" crossorigin="anonymous"></script>
+    <!-- my js file -->
+    <script src="app.js"></script>
+</body>
+</html>
