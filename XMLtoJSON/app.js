@@ -8,7 +8,7 @@ let button2 = document.querySelector("#button2");
 function checkEmpty1(){
     if(input.value == ""){
         input.style.border = "1px solid red";
-        alert("Fill the value");
+        alert("Paste your XML in text area");
     }
     else
     input.style.border = "1px solid black";
@@ -17,7 +17,7 @@ function checkEmpty1(){
 function checkEmpty2(){
     if(output.value == ""){
         output.style.border = "1px solid red";
-        alert("Fill the value");
+        alert("Paste your JSON in text area");
     }
     else
     input.style.border = "1px solid black";

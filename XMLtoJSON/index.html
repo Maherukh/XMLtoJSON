@@ -22,8 +22,11 @@
         textarea{
             width: 90vw;
             height: 40vh;
-            margin: 5vh 0;
+            margin: 2vh 0;
             font-family: monospace;
+        }
+        h4{
+            margin: 2vh 0;
         }
         button{
             padding: 16px 32px;
@@ -31,10 +34,11 @@
         }
     </style>
     <!-- main html elements -->
-    <textarea name="" id="input" cols="30" rows="10"></textarea>
+    <textarea name="" id="input" cols="30" rows="10" placeholder="Your XML here!!"></textarea>
+    <h4>use ctrl + a, ctrl + c to copy</h4>
     <button id="button1">XML ==> JSON</button>
     <button id="button2">JSON ==> XML</button>
-    <textarea name="" id="output" cols="30" rows="10"></textarea>
+    <textarea name="" id="output" cols="30" rows="10" placeholder="Your JSON here!!"></textarea>
     <!-- javascript files -->
     <!-- using x2js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/x2js/1.2.0/xml2json.js" integrity="sha512-JW4yY5Dei/4V3FV0BUZwEhdIrhv5jaUQyABWn9YVdXhOiG4++4Bs6sJAgZFSaMBmVKytwPDOaXic7Qs6yqSMwg==" crossorigin="anonymous"></script>
